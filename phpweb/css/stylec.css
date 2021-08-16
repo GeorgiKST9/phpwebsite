@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+ }
+
+header{
+ 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../b2.jpg);
+ 	height: 100vh;
+ 	background-size: cover;
+ 	background-position: center;
+ 	overflow: auto;
+ }
+
+ul{
+	text-align: center;
+	margin-top: 25px;
+}
+
+ ul li{
+ 	display: inline-block;
+ }
+
+ ul li a{
+ 	text-decoration: none;
+ 	color: #fff;
+ 	padding: 5px 20px;
+ 	border: 1px solid #fff;
+ 	transition: 0.6s ease;
+ 	
+ }
+
+ ul li a:hover{
+ 	background-color: #fff;
+ 	color: #000;
+ }
+
+ body{
+ 	background: white;
+ 	font-size: 14px;
+ }
+
+ .container{
+ 	width: 80%;
+ 	margin: 50px auto;
+ }
+
+.contact-box{
+	background: white;
+	display: flex;
+	color: #fff;
+}
+
+.contact-left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+	border: 1px solid #000;
+	color: #000;
+}
+
+.contact-right{
+	flex-basis: 40%;
+	padding: 40px;
+	background: #000;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	margin-bottom: 25px;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.input-row .input-group{
+	flex-basis: 45%;
+}
+
+textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 10px;
+}
+button{
+	display: inline-block;
+	text-decoration: none;
+ 	color: #000;
+ 	padding: 5px 20px;
+ 	border: 1px solid #000;
+ 	transition: 0.6s ease;
+}
+
+button:hover{
+	background-color: #000;
+ 	color: #fff;
+}
+
+tr td: first-child{
+    padding-right: 20px;
+}
+tr td{
+	padding-top: 20px;
+}
